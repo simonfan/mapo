@@ -4,8 +4,8 @@
         "version": "0.0.0"
     },
     "files": {
-        "src/mapo.js": {
-            "name": "src/mapo.js",
+        "src/index.js": {
+            "name": "src/index.js",
             "modules": {
                 "Mapo": 1
             },
@@ -22,7 +22,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "src/mapo.js",
+            "file": "src/index.js",
             "line": 5,
             "description": "AMD and CJS module."
         }

@@ -1,3 +1,3 @@
-# mapo
+# mapo[![Build Status](https://secure.travis-ci.org/simonfan/mapo.png?branch=master)](http://travis-ci.org/simonfan/mapo)
 
-map(func) for objects that returns objects instead of arrays
+map for objects.

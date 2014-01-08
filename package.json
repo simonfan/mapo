@@ -1,8 +1,8 @@
 {
   "name": "mapo",
-  "main": "./src/mapo",
+  "main": "./src",
   "version": "0.0.0",
-  "description": "map(func) for objects that returns objects instead of arrays",
+  "description": "map for objects.",
   "repository": {
     "type": "git",
     "url": "https://github.com/simonfan/mapo.git"

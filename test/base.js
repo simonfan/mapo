@@ -2,7 +2,7 @@
 
 	var mod = typeof define !== 'function' ?
 		// node
-		'../src/mapo' :
+		'.././src' :
 		// browser
 		'mapo',
 		// dependencies for the test
@@ -16,34 +16,17 @@
 		define(deps, factory);
 	}
 
-})('test', function(mapo, should) {
+})('test', function(Mapo, should) {
 	'use strict';
 
-	describe('mapo(object, function)', function () {
-		beforeEach(function () {
-			this.source = {
-				first: 1,
-				second: 2
-			};
+	describe('Mapo base', function () {
+		beforeEach(function (done) {
+			done();
 		});
 
-		it('returns a not-array-object', function () {
-
-			var res = mapo(this.source, function (value, key, result) {
-
-				// may either return a value
-				return value + 10;
-
-				// or set a property on the result
-				// result[key] = value + 10;
-
-			});
-
-			res.should.eql({
-				first: 11,
-				second: 12
-			});
-
+		it('is fine (:', function () {
+			var fruit = { name: 'banana' }
+			fruit.should.have.property('name', 'banana');
 		});
 	});
 });
